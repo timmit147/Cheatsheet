@@ -1,4 +1,10 @@
 .block_grid{
-    width: 100%;
-    height: 100%;
+    display: flex;
+    gap: 40px;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.block_grid > section{
+    height: 50%;
 }

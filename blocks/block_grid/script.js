@@ -16,6 +16,7 @@ function include(){
       );
 
 
+
     var file = location.pathname.split( `blocks/`+blockName+`/style.css` ).pop();
     var link = document.createElement( "link" );
     link.href = file.substr( 0, file.lastIndexOf( "." ) ) + `blocks/`+blockName+`/style.css`;
