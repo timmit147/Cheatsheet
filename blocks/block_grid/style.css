@@ -1,10 +1,23 @@
 .block_grid{
-    display: flex;
+    display: inline-grid;
     gap: 40px;
     padding: 80px;
     box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
 }
 
-.block_grid > section{
-    height: 50%;
+.block_grid > div{
+    width: 100%;
+    aspect-ratio: 2/1;
+    text-align: center;
+}
+
+.block_grid > div > section{
+    border: 1px solid;
+}
+
+.block_grid h2{
+    color: black;
 }

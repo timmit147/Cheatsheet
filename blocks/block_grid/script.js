@@ -34,3 +34,8 @@ function include(){
 
 
 include();
+
+
+document.querySelector('button').onclick = function() {
+  alert("button was clicked");
+}

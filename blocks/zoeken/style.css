@@ -1,14 +1,16 @@
 .zoeken{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .zoeken input{
     background-color: inherit;
     border: 1px solid black;
     text-align: center;
-    font-size: 30px;
+    font-size: 1rem;
     border-radius: 20px;
 }
 

@@ -3,17 +3,17 @@ body{
     display: flex;
 }
 
-body .sidebar{
+body > .sidebar{
     width: 20vw;
     height: 100vh;
 }
 
-body .zoeken{
+body > .zoeken{
     width: 80vw;
     height: 100vh;
 }
 
-body .block_grid{
+body > .block_grid{
     width: 80vw;
     height: 100vh;
 }
